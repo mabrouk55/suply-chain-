@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.19;
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC721/ERC721.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC721/ERC721Full.sol";
 
 contract coffeeChain is ERC721Full {
     address admin;
